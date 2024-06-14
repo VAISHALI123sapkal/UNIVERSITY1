@@ -1,0 +1,11 @@
+list_data <- list(c("red","Green","Black"), 
+list("python","PHP","java"))
+print("list:")
+print(list_data)
+names(list_data)=c("color","odd numbers","language(s)")
+print("list with column names:")
+print(list_data)
+print('1st element:')
+print(list_data[1])
+print('2nd element:')
+print(list_data[2])
